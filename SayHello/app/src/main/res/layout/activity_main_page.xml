@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="15dip"
+        android:text="SayHello"
+        android:textColor="#F7F7F8"
+        android:textSize="26dip"
+        android:textStyle="bold" />
+
+    <EditText android:id="@+id/txtText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the text to speak"
+        android:textColorHint="#B1AAAA"
+        android:textColor="#FFEB3B"
+        android:layout_marginTop="20dip"
+        android:layout_margin="10dip"/>
+
+    <Button android:id="@+id/btnSpeak"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Speak Out"
+        android:layout_margin="20dip"/>
+
+    <Button
+        android:id="@+id/btnclr"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dip"
+        android:text="Clear" />
+
+    <Button
+        android:id="@+id/btnext"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dip"
+        android:text="Exit App" />
+
+</LinearLayout>
